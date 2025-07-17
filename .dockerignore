@@ -1,0 +1,11 @@
+.env
+.gitignore
+data
+docker-compose template.yaml
+docker-compose.yml
+Dockerfile
+output.json
+settings
+
+logs/
+.vscode/

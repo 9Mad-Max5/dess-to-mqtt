@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  dess-to-mqtt:
+    image: 9madmax5/dess-to-mqtt:dev
+    container_name: dess-to-mqtt
+    restart: unless-stopped
+    environment:
+      API_URL: http://192.168.4.26:8000/data # Address for your https://github.com/Antoxa1081/smart-ess-api-gateway instance
+      MQTT_HOST: mqtt server address
+      MQTT_PORT: 8883
+      MQTT_USER: mqtt user
+      MQTT_PASS: mqtt pass
+      MQTT_TLS_CA: /pfad/zur/ca.crt # optional
+      TOPIC_PREFIX: dessmonitor
+      INTERVAL: 10 # Seconds till refresh
