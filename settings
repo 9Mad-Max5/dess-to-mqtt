@@ -1,0 +1,34 @@
+{
+  "settings": [
+    {
+      "id": "bse_output_source_priority_read",
+      "name": "Output source priority rating",
+      "val": "SBU first"
+    },
+    {
+      "id": "bat_max_charging_current_read",
+      "name": "Current rating charging current",
+      "val": "80.00"
+    },
+    {
+      "id": "bat_ac_charging_current_read",
+      "name": "Current max AC rating  current",
+      "val": "60.00"
+    },
+    {
+      "id": "bat_battery_cut_off_voltage_read",
+      "name": "Battery rating under voltage",
+      "val": "22.40"
+    },
+    {
+      "id": "bat_charging_bulk_voltage_read",
+      "name": "Battery rating bulk voltage",
+      "val": "29.20"
+    },
+    {
+      "id": "bat_charging_float_voltage_read",
+      "name": "Battery rating float voltage",
+      "val": "27.60"
+    }
+  ]
+}
