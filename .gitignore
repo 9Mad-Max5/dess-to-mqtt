@@ -177,3 +177,4 @@ logs/
 scraped/
 local_settings.py
 docker-compose.yml
+old/
